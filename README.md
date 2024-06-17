@@ -33,6 +33,7 @@ step5: Open your discord and see your bot is active now.
 - See current weather
 - Sent you meme (if you write `meme` in your message)
 - Automatic Reaction
+- Detection chats
 
 
        
