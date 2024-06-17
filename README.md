@@ -1,4 +1,7 @@
 # How to make Discord Bot
+[!Note]
+> Sorry for my bad english
+
 step1: Download this project files. (clone or zip download)
 
 step2: Go to the https://discord.com/developers/docs/quick-start/getting-started and Click Create App button.The create app form will appear. 
@@ -68,7 +71,7 @@ step5: Open your discord and see your bot is active now.
      $leave  => Leave from the voice channel
   ```
 
-  # Contants
+  # Contacts
   Email    - skyaw6736@gmail.com
   
   Facebook - https://www.facebook.com/chirstopher.kyawsanoo 
