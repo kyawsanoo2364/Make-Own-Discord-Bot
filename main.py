@@ -24,7 +24,7 @@ async def on_ready():
 
 @client.command()
 async def hello(ctx):
-    await ctx.send("Hi! I'm reflex bot. How can i help you today?")
+    await ctx.send("Hi!")
 
 
 @client.slash_command(name="help")
