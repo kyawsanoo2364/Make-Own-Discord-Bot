@@ -20,8 +20,9 @@ step2: Open your `terminal` or `cmd` inside project file.
 
 step3: Please run this command in terminal or cmd:
        ```pip3 install -r requirements.txt ``` or ```pip install -r requirements.txt```
+> Install the package. Give it until it's done.       
        
-step4: Run this command```python3 main.py```
+step4: Then run this command```python3 main.py```
 
 step5: Open your discord and see your bot is active now.
 
