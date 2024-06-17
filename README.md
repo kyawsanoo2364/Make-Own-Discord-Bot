@@ -32,7 +32,7 @@ step5: Open your discord and see your bot is active now.
 - Anti-Raid Protection to your Discord server
 - See current weather
 - Sent you meme (if you write `meme` in your message)
-- Automatic raction
+- Automatic Reaction
 
 
        
