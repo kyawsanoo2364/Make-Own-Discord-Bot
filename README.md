@@ -12,6 +12,11 @@ step5: Open downloaded this project files. Find ```token.txt``` file and paste y
 
 # Test Bot
 
-You need to have Python installed on your machine
+> You need to have Python installed on your pc.
+>
+step1: Open your downloaded project files with code editor like [vscode](https://code.visualstudio.com/) or other.
+
+
+
 
 
