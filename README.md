@@ -37,6 +37,34 @@ step5: Open your discord and see your bot is active now.
 - Auto Greeting new member and Goodbye for leave member in their direct message.
 - You can play YouTube music in voice channel
 
+  # Commands
+  ```
+   /help    => help
+     
+     #================ Usefull slash commands =========================
+     /search_youtube <Enter you want to search>   => Search YouTube Video
+     /create_channel <category_name> <channel_name> <channel_type> =>Create new channel
+     /remove_text_channel <channel>               => Remove text channel
+     /remove_voice_channel <channel>              => Remove voice channel
+     /create_category <name>                      => Create new category
+     /delete_category <name>                      => Delete existing category
+     /schedule_meeting <date> <time> <message> <alert_in> => Schedule For Meeting
+     /weather <city> => Get current weather
+     
+       ================= Moderation =======================
+     /assign_role <role_name> <member> <reason> => Assign role to member
+     /remove_role <role_name> <member> <reason> => Remove role from member
+     /ban_member <member> <reason>              => Ban the member
+     /kick_member <member> <reason>             => Kick the member
+     
+     ================== Music ============================
+     $play_youtube [Enter youtube video url] => Play the song from YouTube
+     $pause  => Pause the audio 
+     $resume => Resume the audio
+     $stop   => Stop the audio
+     $leave  => Leave from the voice channel
+  ```
+
 
        
 
