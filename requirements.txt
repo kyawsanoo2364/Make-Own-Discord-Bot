@@ -1,0 +1,4 @@
+nextcord
+requests
+pytz
+yt-dlp
