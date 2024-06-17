@@ -35,6 +35,7 @@ step5: Open your discord and see your bot is active now.
 - Automatic Reaction
 - Auto Detection chats 
 - Auto Greeting new member and Goodbye for leave member in their direct message.
+- You can play YouTube music in voice channel
 
 
        
