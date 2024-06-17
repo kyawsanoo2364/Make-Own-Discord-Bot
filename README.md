@@ -4,5 +4,6 @@ step1: Download this project files. (clone or zip download)
 step2: Go to the https://discord.com/developers/docs/quick-start/getting-started and Click Create App button.The create app form will appear. 
 > If you haven't signed in yet, please do so first
 > 
-step3: After creating app, click Bot menu (see left side menu bar) and then reset token. Please fill your password and copy your token. 
-step4: 
+step3: After creating app, click Bot menu (see left side menu bar) and then reset token. Please fill your password and copy your token.
+
+step4: Open downloaded this project files. Find ```token.txt``` file and fill your bot token inside. 
