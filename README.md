@@ -1,1 +1,1 @@
-# make-your-own-discord-bot
+# Discord Bot
