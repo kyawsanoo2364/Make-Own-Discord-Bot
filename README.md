@@ -26,6 +26,15 @@ step4: Then run this command```python3 main.py```
 step5: Open your discord and see your bot is active now.
 
 
+# What Can I do with this bot?
+- Moderation ( ban, kick, assign role)
+- Search Functional ( YouTube video search )
+- Anti-Raid Protection to your Discord server
+- See current weather
+- Sent you meme (if you write `meme` in your message)
+- Automatic raction
+
+
        
 
 
