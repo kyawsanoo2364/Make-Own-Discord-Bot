@@ -14,7 +14,9 @@ step5: Open downloaded this project files. Find ```token.txt``` file and paste y
 
 > You need to have Python installed on your pc.
 >
-step1: Open your downloaded project files with code editor like [vscode](https://code.visualstudio.com/) or other.
+step1: Open your downloaded project file. 
+
+step2: Open your `terminal` or `cmd` inside project file.
 
 
 
