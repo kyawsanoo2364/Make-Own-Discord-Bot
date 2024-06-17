@@ -1,4 +1,4 @@
-# How to make Discord Bot
+# How to make Discord Bot  -V1.0
 
 step1: Download this project files. (clone or zip download)
 
