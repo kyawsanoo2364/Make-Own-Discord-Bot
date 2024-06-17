@@ -10,7 +10,8 @@ step4: Click the OAuth2 menu. Then check ```bot``` in OAuth2 URL Generator. Unde
 
 step5: Open downloaded this project files. Find ```token.txt``` file and paste your bot token inside.
 
-#Test Bot
+# Test Bot
+
 You need to have Python installed on your machine
 
 
