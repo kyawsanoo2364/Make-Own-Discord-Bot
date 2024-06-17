@@ -1,5 +1,6 @@
 # How to make Discord Bot
 step1: Download this project files. (clone or zip download)
+
 step2: Go to the https://discord.com/developers/docs/quick-start/getting-started and Click Create App button.The create app form will appear. 
 > If you haven't signed in yet, please do so first
 > 
