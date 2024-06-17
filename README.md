@@ -8,6 +8,9 @@ step3: After creating app, click Bot menu (see left side menu bar) and then rese
 
 step4: Click the OAuth2 menu. Then check ```bot``` in OAuth2 URL Generator. Under Bot Permissions, check ```Administrator```. Then copy the Generated URL, enter the link and connect to your server
 
-step5: Open downloaded this project files. Find ```token.txt``` file and paste your bot token inside. 
+step5: Open downloaded this project files. Find ```token.txt``` file and paste your bot token inside.
+
+#Test Bot
+You need to have Python installed on your machine
 
 
