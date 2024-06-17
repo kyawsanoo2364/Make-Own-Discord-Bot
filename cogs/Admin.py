@@ -42,21 +42,6 @@ class Admin(commands.Cog):
         await member.ban(reason=reason)
         await interaction.response.send_message(f"Successfully! {member.name} has been banned.",ephemeral=True)
         
-    @nextcord.slash_command(name="unban_member",description="Unban members")
-    async def unban_member(self,interaction:Interaction,member:nextcord.Member,reason:str):
-        guild = interaction.guild
-        if not guild:
-            await interaction.response.send_message("This command can use in only server.",ephemeral=True) 
-            return
-        if not interaction.guild.me.guild_permissions.ban_members:
-            await interaction.response.send_message("I don't have permission to unban members.",ephemeral=True)   
-            return  
-        if not interaction.user.guild_permissions.ban_members:
-           await interaction.response.send_message("You don't have permission to unban members.",ephemeral=True)   
-           return 
-       
-        await member.unban(reason=reason)
-        await interaction.response.send_message(f"Successfully! {member.name} has been unbanned.",ephemeral=True)
         
     @nextcord.slash_command(name="assign_role",description="Assign role to any member",dm_permission=False)
     async def assign_role(self,interaction:Interaction,role_name:nextcord.Role,member:nextcord.Member,reason:str): 
