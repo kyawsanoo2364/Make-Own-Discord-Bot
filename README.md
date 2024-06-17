@@ -18,6 +18,9 @@ step1: Open your downloaded project file.
 
 step2: Open your `terminal` or `cmd` inside project file.
 
+step3: Please enter in terminal or cmd:
+       ```pip install -r requirements.txt ``` or ```pip install -r requirements. txt```
+
 
 
 
