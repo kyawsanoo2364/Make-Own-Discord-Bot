@@ -84,7 +84,38 @@ class Admin(commands.Cog):
             await interaction.response.send_message("I can't remove a role that is higher or equal to my highest role",ephemeral=True)
             return
         await member.remove_roles(role_name,reason=reason)
-        await interaction.response.send_message(f"Removed {role_name} role from {member.mention}. ")    
+        await interaction.response.send_message(f"Removed {role_name} role from {member.mention}. ") 
+        
+    @nextcord.slash_command(name="mute",description="Mute the member")
+    async def mute(self,interaction:Interaction,member:nextcord.Member):
+        if not interaction.guild.me.guild_permissions.manage_roles:
+            await interaction.response.send_message("I don't have permission to manage member.")
+            return
+        if not interaction.user.guild_permissions.manage_roles:
+            await interaction.response.send_message("You don't have permission to manage member.")
+            return
+        mute_role = nextcord.utils.get(interaction.guild.roles,name = "Mute")
+        if not mute_role:
+            mute_role = await interaction.guild.create_role(name="Mute")
+            for channel in interaction.guild.channels:
+                await channel.set_permissions(mute_role, speak=False, send_messages=False)
+                            
+        await member.add_roles(mute_role)
+        await interaction.response.send_message(f"{member.mention} has been muted.")
+        
+    @nextcord.slash_command(name="unmute",description="Unmute the member")
+    async def unmute(self,interaction:Interaction,member:nextcord.Member):
+        if not interaction.guild.me.guild_permissions.manage_roles:
+            await interaction.response.send_message("I don't have permission to manage member.")
+            return
+        if not interaction.user.guild_permissions.manage_roles:
+            await interaction.response.send_message("You don't have permission to manage member.")
+            return
+        mute_role = nextcord.utils.get(interaction.guild.roles,name = "Mute")
+        if not mute_role:
+            return                  
+        await member.remove_roles(mute_role)
+        await interaction.response.send_message(f"{member.mention} has been unmuted.")       
       
   
   
