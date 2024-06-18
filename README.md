@@ -30,7 +30,7 @@ step5: Open your discord and see your bot is active now.
 
 
 # What Can do this bot?
-- Moderation ( ban, kick, assign role)
+- Moderation ( ban, kick, mute, assign role)
 - Search Functional ( YouTube video search )
 - Anti-Raid Protection to your Discord server
 - See current weather
